@@ -1,0 +1,377 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Noto Sans", sans-serif !important;
+    text-transform: capitalize;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+nav{
+    background-color: white;
+    height: 82px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;  
+    z-index: 1500;
+    position: sticky;
+    a{
+       text-decoration: none;
+       color: black;
+       font-size: 20px !important;
+    }
+}
+.bars{
+      color: black;
+      text-decoration: none;
+      position: absolute;
+      width: 50%;
+      right:0;
+      display: flex;
+      gap: 50px;
+      justify-content:right;
+      padding-right: 95px;
+    }
+.barlogo{
+    position: absolute;
+        height: 42px;
+        width: 113px;
+        width: 50%;
+        left: 110px;
+    #logo1{
+        height: 48px;
+        width: 113px;
+    }
+      }
+.mainbg{
+    background-image: url(main\ bg.png);
+    background-size: contain;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 100px;
+    .place{
+        display: flex;
+        justify-content: center;
+    }
+    h1{
+        color: #333333;
+        font-size: 48px;
+        position: relative;
+        top: -20px;
+    }
+    input{
+    position:relative;
+    background-image: url(pickuppng.svg);
+    background-repeat: no-repeat;
+    background-position:20px;
+    background-size: 20px;
+}
+
+    }
+    #p2{   
+    position: relative;
+    background-image: url(drop.svg);
+    background-repeat: no-repeat;
+    background-position:20px;
+    background-size: 20px;
+}
+#p1,#p2{
+height: 72px;
+width: 580px;
+font-size: 18px;
+color: black;
+display: flex;
+padding-left: 60px !important;
+border-radius: 12px;
+border-color: #B2B2B2;
+margin:-20px;
+}
+#p3{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 85px;
+width: 580px;
+font-size: 30px;
+font-weight: bolder;
+color: black;
+display: flex;
+background-color: #FFCA20;
+border: none;
+border-radius: 12px;
+cursor: pointer;
+}
+
+.card{
+    height: 600px;
+    width: 100%;
+    flex-direction:column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+
+    .cards{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 200px;
+        z-index: 1500;
+    }
+
+    #head1{
+        color: #333333;
+        font-size: 48px;
+        border-bottom: #FFCA20 solid 1px ;
+        position: relative;
+        left: -390px;
+        margin-top: 35px;
+        margin-bottom: 70px;
+    }
+    img{
+        position: relative;
+        height: 120px;
+        width: auto;
+        border-radius: 15px;
+        vertical-align: middle;
+        margin-bottom: 25px;
+        font-weight: 900;
+    }
+    .c1,.c2{
+        height: 100px;
+        width: 100px;
+
+    }
+  
+}
+
+.spon{
+    display: flex;
+    justify-content:space-around;
+    height: 600px;
+    width: 100%;
+    background-color: #F6F7F9;
+
+    .sp{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 50%;
+        row-gap: 30px;
+
+        h1{
+            height: 137px;
+            width: 560px;
+            font-size: 48px;
+            margin-left: 60px;
+        }
+        h3{
+            height: 205px;
+            width: 500px;
+            font-size: 32px;
+            font-weight: 300;
+        }
+        button{
+            position: relative;
+            bottom: 75px;
+            right: 140px;
+            padding-right: 25px;
+            color: white;
+            height: 62px;
+            width: 233px;
+            font-size: 30px;
+            background-color: #1A202A;
+            border-radius: 50px;
+            background-image: url(arrowButton.png);
+            background-size: 25px;
+            background-repeat: no-repeat;
+            background-position: 190px;
+            cursor: pointer;
+        }
+    }
+    .sp:nth-child(2){
+        height: 100%;
+        width: 50%;
+        background-image: url(promo\ 1.webp);
+        background-size: 500px;
+        background-repeat: no-repeat;
+        background-position: 25px;
+    }
+}
+.spon2{
+    display: flex;
+    justify-content:space-between;
+    height: 600px;
+    width: 100%;
+    background-color: #F6F7F9;
+
+    .sp2{
+        padding-right:200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 50%;
+        row-gap: 30px;
+
+        h1{
+            height: 137px;
+            width: 560px;
+            font-size: 48px;
+            margin-left: 60px;
+        }
+        h3{
+            height: 205px;
+            width: 500px;
+            font-size: 32px;
+            font-weight: 300;
+        }
+        button{
+            position: relative;
+            bottom: 75px;
+            right: 140px;
+            padding-right: 25px;
+            color: white;
+            height: 62px;
+            width: 233px;
+            font-size: 30px;
+            background-color: #1A202A;
+            border-radius: 50px;
+            background-image: url(arrowButton.png);
+            background-size: 25px;
+            background-repeat: no-repeat;
+            background-position: 190px;
+            cursor: pointer;
+        }
+    }
+    .sp2:nth-child(1){
+        height: 100%;
+        width: 50%;
+        background-image: url(promo2.png);
+        background-size: 500px;
+        background-repeat: no-repeat;
+        background-position: 25px;
+        margin-left: 150px;
+    }
+}
+    .spon3{
+    display: flex;
+    justify-content:space-around;
+    height: 600px;
+    width: 100%;
+    background-color:white;
+
+    .sp3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 50%;
+        h1{
+            height: 137px;
+            width: 560px;
+            font-size: 48px;
+            margin-left: 60px;
+        }
+        h3{
+            height: 205px;
+            width: 500px;
+            font-size: 32px;
+            font-weight: 300;
+        }
+      a{
+        color: #1E4B82;
+        text-decoration: none;
+        font-size: 40px;
+        font-weight: 600;
+        margin-right:250px ;
+        cursor: pointer;
+      }
+    }
+    .sp3:nth-child(2){
+        height: 100%;
+        width: 50%;
+        background-image: url(promo3.png);
+        background-size: 500px;
+        background-repeat: no-repeat;
+        background-position: 25px;
+    }
+}
+.logdiv{
+    height: 373px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+    h1{
+       position:absolute;
+       padding-top: 30px;
+       font-size:55px;
+        color: white;
+    }
+    .log{
+        font-size: 28px;
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        align-items:end;
+        color: white;
+        height:100%;
+        width: 50%;
+        background-image: url(applog1.svg);
+        background-repeat: no-repeat;
+        background-size: 80px;
+        background-position:480px;
+        padding-bottom: 45px;
+        padding-left:330px;
+    }
+
+    .log:nth-child(3){
+        background-image: url(captain.webp);
+        position: relative;
+        right: 330px;
+        
+    }
+}
+
+hr{
+    margin-top: 30px;
+    color:black;
+}
+.ic{
+    height: 120px;
+    width: 100%;
+        display: flex;
+        justify-content: center;
+    .icon{
+        position: relative;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction:column;
+    }
+
+    img{
+        margin-top: 30px;
+       height: 120px;
+       width: 120px;
+    }
+   }
+   #h1{
+    width: 100%;
+    padding-bottom: 30px;
+   }
+
+
