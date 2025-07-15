@@ -374,4 +374,23 @@ hr{
     padding-bottom: 30px;
    }
 
+   .lastsec{
+    height: 500px;
+    width: 960px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+
+    #l3{
+        position: absolute;
+        height: 48px;
+        width: 113px;
+        left: 210px;
+        
+    }
+    .l1{
+        padding-left: 50px;
+        
+    }
+   }
 
